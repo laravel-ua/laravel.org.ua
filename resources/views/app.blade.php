@@ -29,7 +29,7 @@
 
         <div class="search nav-block invisible">
             {!! svg('search') !!}
-            <input placeholder="search" type="text" v-model="search" id="search-input" v-on:blur="reset" />
+            <input placeholder="пошук" type="text" v-model="search" id="search-input" v-on:blur="reset" />
         </div>
 
         <ul class="main-nav" v-if="! search">

@@ -22,8 +22,8 @@
 	<div class="container">
 
         <div class="content">
-            <h1>Love beautiful code? We do too.</h1>
-            <p>The PHP Framework For Web Artisans</p>
+            <h1>Любиш красивий код? Ми теж.</h1>
+            <p>PHP Framework Для веб-ремісників</p>
         </div>
 
         @include('partials/browser')
