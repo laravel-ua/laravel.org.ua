@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
     <link rel="apple-touch-icon" href="/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110065026-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110065026-1');
+    </script>
+
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
@@ -71,13 +82,5 @@
     <script src="{{ elixir('assets/js/laravel.js') }}"></script>
     <script src="/assets/js/viewport-units-buggyfill.js"></script>
     <script>window.viewportUnitsBuggyfill.init();</script>
-    <script>
-        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
-        (function(d,t){
-            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)
-        }(document,'script'));
-    </script>
 </body>
 </html>
