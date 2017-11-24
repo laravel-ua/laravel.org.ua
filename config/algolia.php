@@ -19,8 +19,8 @@ return [
     'connections' => [
 
         'main' => [
-            'id' => '8BB87I11DE',
-            'search_key' => '8e1d446d61fce359f69cd7c8b86a50de',
+            'id' => '5R9BWYIN90',
+            'search_key' => 'c55ccdd427c0e0cd831d6950fd05976a',
             'key' => env('ALGOLIA_ADMIN_KEY', ''),
         ],
 
